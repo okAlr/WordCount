@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		283497CC264544C900AB9397 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 283497CB264544C900AB9397 /* main.c */; };
+		283497D526454D1900AB9397 /* HelloWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 283497D426454D1900AB9397 /* HelloWorld.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		283497C8264544C900AB9397 /* WordCountDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordCountDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		283497CB264544C900AB9397 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		283497D326454D1900AB9397 /* HelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
+		283497D426454D1900AB9397 /* HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HelloWorld.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				283497CB264544C900AB9397 /* main.c */,
+				283497D326454D1900AB9397 /* HelloWorld.h */,
+				283497D426454D1900AB9397 /* HelloWorld.c */,
 			);
 			path = WordCountDemo;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				283497CC264544C900AB9397 /* main.c in Sources */,
+				283497D526454D1900AB9397 /* HelloWorld.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
